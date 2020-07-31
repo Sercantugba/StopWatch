@@ -44,7 +44,7 @@ import React, { Component } from 'react'
         return (
             <div>
                 <h1>Count: {this.state.counter}</h1>
-              <div className='btn-grid'>
+              <div className='buttons'>
                 <button className='button' onClick= {this.startCount}>Start</button>
                 <button className='button' onClick= {this.pauseCount}>Pause</button>
                 <button className='button' onClick= {this.restartCount}>Restart</button>
